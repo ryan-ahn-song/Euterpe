@@ -1,7 +1,5 @@
 # MeloBridge-CAPE + CI Research Platform v0.3.0
 
-이 저장소에는 서로 다른 출력 목적을 가진 두 소프트웨어가 함께 들어 있다.
-
 | 실행기 | 목적 | 출력 |
 |---|---|---|
 | `hearing-assist` | MeloBridge-CAPE 음악 특화 보청 보조 연구 프로토타입 | 마이크/WAV를 처리한 실제 음향 파형과 결정 로그 |
