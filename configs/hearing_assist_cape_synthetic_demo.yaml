@@ -1,0 +1,57 @@
+name: cape-synthetic-demo
+description: CAPE end-to-end software demo; the included model is trained only on authored synthetic outcomes.
+
+audio:
+  sample_rate: 48000
+  block_size: 256
+  input_channels: 1
+  output_channels: 2
+
+audiogram:
+  frequencies_hz: [250, 500, 1000, 2000, 3000, 4000, 6000, 8000]
+  hearing_loss_db_hl: [20, 25, 30, 35, 40, 40, 35, 30]
+  manual_gain_db: null
+
+compression:
+  knee_dbfs: -45
+  ratio: 2.0
+  attack_ms: 8
+  release_ms: 120
+  low_level_gate_dbfs: -78
+  max_gain_db: 12
+
+music:
+  enabled: true
+  harmonic_boost_db: 1.5
+  timbre_preserve_mix: 0.45
+  melody_relief_db: 1.25
+  transient_attack_scale: 4.0
+  pitch_min_hz: 80
+  pitch_max_hz: 1000
+  confidence_threshold: 0.55
+
+cape:
+  enabled: true
+  model_path: ../models/cape_synthetic_demo.npz
+  listener_profile_path: ../data/cape/listener_example.json
+  decision_interval_blocks: 16
+  min_hold_ms: 300
+  crossfade_ms: 200
+  strengths: [0.35, 0.65, 1.0]
+  min_effect: 0.005
+  max_uncertainty: 0.20
+  max_distortion: 0.18
+  max_naturalness_drop: 0.08
+  distortion_penalty: 0.35
+  uncertainty_penalty: 0.25
+
+limiter:
+  ceiling_dbfs: -9
+  release_ms: 80
+  startup_ramp_ms: 1000
+
+calibration:
+  output_calibrated: false
+  calibrated_device: ""
+  verified_by: ""
+  notes: Synthetic CAPE demo only. dBFS is not dB SPL.

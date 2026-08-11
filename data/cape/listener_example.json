@@ -1,0 +1,23 @@
+{
+  "listener_id": "example-research-listener",
+  "audiogram_db_hl": [20, 25, 30, 35, 40, 40, 35, 30],
+  "responses": [
+    {"task": "pitch", "difficulty": 0.25, "harmonicity": 0.90, "polyphony": 0.10, "masking": 0.15, "correct": 1, "confidence": 0.85, "reaction_time_ms": 920},
+    {"task": "pitch", "difficulty": 0.55, "harmonicity": 0.65, "polyphony": 0.35, "masking": 0.45, "correct": 0, "confidence": 0.45, "reaction_time_ms": 1880},
+    {"task": "pitch", "difficulty": 0.75, "harmonicity": 0.40, "polyphony": 0.70, "masking": 0.65, "correct": 0, "confidence": 0.35, "reaction_time_ms": 2460},
+    {"task": "pitch", "difficulty": 0.45, "harmonicity": 0.80, "polyphony": 0.25, "masking": 0.30, "correct": 1, "confidence": 0.70, "reaction_time_ms": 1320},
+    {"task": "timbre", "difficulty": 0.25, "harmonicity": 0.75, "polyphony": 0.15, "masking": 0.20, "correct": 1, "confidence": 0.80, "reaction_time_ms": 1040},
+    {"task": "timbre", "difficulty": 0.60, "harmonicity": 0.55, "polyphony": 0.45, "masking": 0.55, "correct": 0, "confidence": 0.40, "reaction_time_ms": 2120},
+    {"task": "timbre", "difficulty": 0.80, "harmonicity": 0.35, "polyphony": 0.75, "masking": 0.70, "correct": 0, "confidence": 0.30, "reaction_time_ms": 2750},
+    {"task": "timbre", "difficulty": 0.40, "harmonicity": 0.85, "polyphony": 0.30, "masking": 0.25, "correct": 1, "confidence": 0.75, "reaction_time_ms": 1260},
+    {"task": "melody", "difficulty": 0.30, "harmonicity": 0.80, "polyphony": 0.20, "masking": 0.25, "correct": 1, "confidence": 0.75, "reaction_time_ms": 1180},
+    {"task": "melody", "difficulty": 0.60, "harmonicity": 0.60, "polyphony": 0.60, "masking": 0.55, "correct": 0, "confidence": 0.35, "reaction_time_ms": 2240},
+    {"task": "melody", "difficulty": 0.85, "harmonicity": 0.45, "polyphony": 0.85, "masking": 0.75, "correct": 0, "confidence": 0.25, "reaction_time_ms": 3020},
+    {"task": "melody", "difficulty": 0.45, "harmonicity": 0.70, "polyphony": 0.40, "masking": 0.40, "correct": 1, "confidence": 0.65, "reaction_time_ms": 1580},
+    {"task": "naturalness", "difficulty": 0.20, "harmonicity": 0.85, "polyphony": 0.20, "masking": 0.20, "correct": 1, "confidence": 0.90, "reaction_time_ms": 840},
+    {"task": "naturalness", "difficulty": 0.50, "harmonicity": 0.60, "polyphony": 0.50, "masking": 0.45, "correct": 1, "confidence": 0.65, "reaction_time_ms": 1460},
+    {"task": "naturalness", "difficulty": 0.75, "harmonicity": 0.40, "polyphony": 0.75, "masking": 0.70, "correct": 0, "confidence": 0.40, "reaction_time_ms": 2360},
+    {"task": "naturalness", "difficulty": 0.40, "harmonicity": 0.75, "polyphony": 0.35, "masking": 0.30, "correct": 1, "confidence": 0.75, "reaction_time_ms": 1220}
+  ],
+  "outcome_weights": {}
+}

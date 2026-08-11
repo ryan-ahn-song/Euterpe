@@ -1,0 +1,28 @@
+audio:
+  sample_rate: 16000
+  frame_samples: 128
+  context_ms: 48
+
+filterbank:
+  num_channels: 22
+  min_hz: 150.0
+  max_hz: 7500.0
+  envelope_cutoff_hz: 400.0
+
+selection:
+  strategy: msa
+  active_channels: 8
+  energy_weight: 1.0
+  harmonic_weight: 0.6
+  continuity_weight: 0.2
+  redundancy_weight: 0.3
+
+pitch:
+  min_hz: 80.0
+  max_hz: 1000.0
+  confidence_threshold: 0.35
+
+runtime:
+  frame_deadline_ms: 8.0
+  random_seed: 20260811
+

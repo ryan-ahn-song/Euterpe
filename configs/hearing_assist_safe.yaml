@@ -1,0 +1,39 @@
+name: safe-passthrough
+description: Zero-gain starting profile for device checks; this is not a hearing-aid fitting.
+
+audio:
+  sample_rate: 48000
+  block_size: 256
+  input_channels: 1
+  output_channels: 2
+
+audiogram:
+  frequencies_hz: [250, 500, 1000, 2000, 3000, 4000, 6000, 8000]
+  hearing_loss_db_hl: [0, 0, 0, 0, 0, 0, 0, 0]
+  manual_gain_db: [0, 0, 0, 0, 0, 0, 0, 0]
+
+compression:
+  knee_dbfs: -45
+  ratio: 2.0
+  attack_ms: 8
+  release_ms: 120
+  low_level_gate_dbfs: -78
+  max_gain_db: 6
+
+music:
+  enabled: false
+  harmonic_boost_db: 0
+  pitch_min_hz: 80
+  pitch_max_hz: 1000
+  confidence_threshold: 0.55
+
+limiter:
+  ceiling_dbfs: -12
+  release_ms: 80
+  startup_ramp_ms: 1000
+
+calibration:
+  output_calibrated: false
+  calibrated_device: ""
+  verified_by: ""
+  notes: Start with the physical volume at minimum.
