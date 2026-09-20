@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+  <title id="title">Euterpe</title>
+  <desc id="desc">겹쳐 흐르는 음향 파형으로 표현한 Euterpe 로고</desc>
+  <rect width="1000" height="320" fill="#111214" />
+  <g fill="none" stroke="#f7f8fa" stroke-width="20" stroke-linecap="round">
+    <path d="M120 112c32 0 32 96 64 96s32-96 64-96 32 96 64 96" />
+    <path d="M120 160c32 0 32-64 64-64s32 128 64 128 32-64 64-64" opacity=".58" />
+  </g>
+  <circle cx="120" cy="112" r="10" fill="#f7f8fa" />
+  <circle cx="312" cy="208" r="10" fill="#f7f8fa" />
+  <text x="370" y="166" fill="#f7f8fa" font-family="Bahnschrift, 'Segoe UI', sans-serif" font-size="116" font-weight="600" letter-spacing="-3" dominant-baseline="middle">Euterpe</text>
+</svg>

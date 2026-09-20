@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Euterpe — Keeping music within reach, across the limits of hearing.</title>
+  <desc id="desc">Minimal dark banner with the Euterpe interwoven-wave mark, project name, and vision statement.</desc>
+  <rect width="1600" height="640" fill="#0d1117" />
+  <rect x="350" y="110" width="900" height="250" fill="#111111" />
+  <g transform="translate(390 139)" fill="none" stroke="#f7f8fa" stroke-width="18" stroke-linecap="round">
+    <path d="M0 48c30 0 30 96 60 96s30-96 60-96 30 96 60 96" />
+    <path d="M0 96c30 0 30-64 60-64s30 128 60 128 30-64 60-64" opacity=".58" />
+  </g>
+  <circle cx="390" cy="187" r="9" fill="#f7f8fa" />
+  <circle cx="570" cy="283" r="9" fill="#f7f8fa" />
+  <text x="650" y="278" fill="#f7f8fa" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="116" font-weight="600" letter-spacing="-4">Euterpe</text>
+  <text x="800" y="452" fill="#f7f8fa" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="32" font-weight="600" text-anchor="middle" letter-spacing="-.4">Keeping music within reach, across the limits of hearing.</text>
+</svg>
